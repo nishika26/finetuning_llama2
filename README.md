@@ -1,3 +1,7 @@
-# finetuning_llama2
+# Project Overview
 
-Llama 2 was finetued with huggingace supervised fine tuning trainer. I used QLoRA(Quantized low-rank adaptation) as a system with GPU isn't available and so this method is the best for when the best you can manage is Google colab's free T4 GPU service. The dataset is also from huggingface and it is in llama's prompt template form.  
+I finetuned a llama2 model - (https://huggingface.co/meta-llama/Llama-2-7b-hf). My problem statement was to make a text to sql model that gives me precise enough SQL Queries for any Natural language question we ask it. I used multiple methods and multiple models results of which are the many fine tuned model hosted on my huggingface hub profile - https://huggingface.co/Nishika26
+
+### Getting into tyhe the files in this repo :-
+
+  1. Supervised_
