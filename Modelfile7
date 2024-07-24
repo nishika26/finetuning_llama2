@@ -1,0 +1,11 @@
+FROM "./Users/nishikayadav/Desktop/untitled folder/codellama-7b-mine.gguf"
+
+TEMPLATE "[INST] <<SYS>>{{ .System }}<</SYS>>
+
+{{ .Prompt }} [/INST]
+"
+PARAMETER rope_frequency_base 1e+06
+PARAMETER stop [INST]
+PARAMETER stop [/INST]
+PARAMETER stop <<SYS>>
+PARAMETER stop <</SYS>>
